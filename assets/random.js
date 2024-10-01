@@ -2,7 +2,7 @@
 const generateRandomDataBtn = document.getElementById('generate-random-data-btn');
 const carListTableBody = document.getElementById('car-list-tbody');
 
-// Function to generate random car data
+// Function to generate random cars data
 function generateRandomCarData() {
   const carData = [];
   for (let i = 0; i < 20; i++) { // Generate 20 random cars
